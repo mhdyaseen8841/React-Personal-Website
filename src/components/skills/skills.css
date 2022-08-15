@@ -1,0 +1,27 @@
+
+  .img1 {
+    width: 128px;
+    height: 128px;
+  }
+  
+  .main {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .skill {
+    text-align: center;
+  }
+  
+  
+  .skill h4 {
+    color: #eee;
+  }
+  
+  .skill p {
+    line-height:5px;
+  }
+  
+  
+  

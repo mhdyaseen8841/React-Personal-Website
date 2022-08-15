@@ -1,0 +1,150 @@
+{
+    "basics": {
+        "name": "Mohammed Yaseen",
+        "label": "Web Developer",
+        "email": "mohdyaseen.official@gmail.com",
+        "phone": "(+91) 755-8978583",
+        "picture": "profile2.png",
+        "x_title": "Hello, I'm",
+        "job1": "Web",
+        "job2": "Developer",
+        "description": "Hello! I'm Yaseen! Your web development enthusiast. Always down for something new and challenging! Just like markdown, I'm here to help you create beautifully formatted websites.",
+        "summary": "based in Kerala, India.",
+        "keywords": "personal,website,portfolio,template,india,yaseen,mohammed,alameen,mernstack,mern,merndeveloper,mhdyaseen,mhdyaseen8841,mohammedyaseen,webdev,web,developer,kerala,perumbavoor,react,github,linkedin,google,gitlab,telegram,material,design,ui,webapp,markdown",
+        "url": "https://mohammedyaseen.live",
+        "location": {
+            "address": "Puthukkadan House Ponjassery",
+            "postalCode": "683547",
+            "city": "Ernakulam",
+            "country": "India",
+            "countryCode": "IN",
+            "region": "South"
+        },
+        "profiles": [
+            {
+                "network": "Google",
+                "username": "mhdyaseen.official@gmail.com",
+                "url": "mailto:mhdyaseen.official@gmail.com",
+                "x_icon": "fab fa-google"
+            },
+            {
+                "network": "LinkedIn",
+                "username": "Mohammed Yaseen",
+                "url": "https://www.linkedin.com/in/mohammed-yaseen-b695a81b3/",
+                "x_icon": "fab fa-linkedin-in"
+            },
+            {
+                "network": "GitHub",
+                "username": "mhdyaseen8841",
+                "url": "https://github.com/mhdyaseen8841",
+                "x_icon": "fab fa-github"
+            },
+            {
+                "network": "Instagram",
+                "username": "mohdyaseen.official",
+                "url": "https://www.instagram.com/mohdyaseen.official/",
+                "x_icon": "fab fa-instagram"
+            },
+            {
+                "network": "Twitter",
+                "username": "@MohammedyaseenO",
+                "url": "https://twitter.com/MohammedyaseenO",
+                "x_icon": "fab fa-twitter"
+            },
+            {
+                "network": "Whatsapp",
+                "username": "7558978583",
+                "url": "https://wa.me/+917558978583?text=Hi!%20I%20want%20help%20of%20you.",
+                "x_icon": "fab fa-whatsapp"
+            }
+        ]
+    },
+    "work": [
+        {
+            "company": "Company",
+            "position": "President",
+            "website": "http://company.com",
+            "startDate": "2013-01-01",
+            "endDate": "2014-01-01",
+            "summary": "Description...",
+            "highlights": ["Started the company"]
+        }
+    ],
+    "volunteer": [
+        {
+            "organization": "Tinkerhub",
+            "position": "CampusLead",
+            "website": "https://tinkerhub.org/",
+            "startDate": "2022-01-01",
+            "endDate": "2023-04-01",
+            "summary": "Description...",
+            "highlights": ["Awarded 'Volunteer of the Month'"]
+        }
+    ],
+    "education": [
+        {
+            "institution": "Alameen College",
+            "area": "Computer Application",
+            "studyType": "Bachelor",
+            "startDate": "2020-10-25",
+            "endDate": "2023-04-01",
+            "gpa": "8.0",
+            "courses": ["BCA - computer application"]
+        }
+    ],
+    "awards": [
+        {
+            "title": "Award",
+            "date": "2014-11-01",
+            "awarder": "Company",
+            "summary": "There is no spoon."
+        }
+    ],
+    "publications": [
+        {
+            "name": "Publication",
+            "publisher": "Company",
+            "releaseDate": "2014-10-01",
+            "website": "http://publication.com",
+            "summary": "Description..."
+        }
+    ],
+    "skills": [
+        {
+            "name": "Web Development",
+            "level": "Master",
+            "keywords": ["HTML", "CSS", "Javascript"]
+        },
+        {
+            "name": "Web Development",
+            "level": "Master",
+            "keywords": ["Nodejs", "Reactjs", "Javascript", "Expressjs", "MongoDB"]
+        }
+    ],
+    "languages": [
+        {
+            "language": "Malayalam",
+            "fluency": "Native speaker"
+        },
+        {
+            "language": "English",
+            "fluency": "Fluent speaker"
+        },
+        {
+            "language": "Tamil",
+            "fluency": "Good knowledge"
+        }
+    ],
+    "interests": [
+        {
+            "name": "Reading",
+            "keywords": ["Thinker", "Unicorns"]
+        }
+    ],
+    "references": [
+        {
+            "name": "Mohammed Yaseen",
+            "reference": "Reference..."
+        }
+    ]
+}
