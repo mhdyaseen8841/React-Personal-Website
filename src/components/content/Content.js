@@ -1,9 +1,11 @@
 import React from "react";
+import { useState, useEffect } from "react";
 import { Typography, Container } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import { TextDecrypt } from "./TextDecrypt";
 import Resume from "../../settings/resume.json";
 import { FirstName, LastName } from "../../utils/getName";
+
 
 const useStyles = makeStyles((theme) => ({
   main: {
@@ -24,8 +26,38 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+
 export const Content = () => {
+  let i = 0;
   const classes = useStyles();
+
+  const [fjob, setfjob] = useState(Resume.basics.job1)
+  const [ljob, setljob] = useState(Resume.basics.job2)
+
+  var headings = ['App', 'MernStack', 'Graphic','Web'];
+  var ljoba = ['Developer', 'Developer', 'Designer','Developer'];
+ 
+  useEffect(() => {
+    const timer =
+    setInterval(function() {
+   
+       setfjob(headings[i]);
+      setljob(ljoba[i]);
+       if (i === (headings.length - 1)) {
+        
+         i = 0;
+         //you can even clear interval here to make heading stay as last one in array
+         //cleanInterval(intervalId);
+     
+       } else {
+         i++;
+       }
+     }, 5000)
+    
+    return () => clearInterval(timer)
+  }, [])
+
+
 
   return (
     <Container component="main" className={classes.main} maxWidth="md">
@@ -34,8 +66,8 @@ export const Content = () => {
             <TextDecrypt text={`${FirstName} ${LastName}`} />
         </Typography>
         <Typography variant="h1" component="h1" className={classes.jobs}>
-            <TextDecrypt text={`${Resume.basics.job1} + `} />
-            <TextDecrypt text={`${Resume.basics.job2}`} />
+            <TextDecrypt text={`${fjob} `} />
+            <TextDecrypt text={`${ljob}`} />
         </Typography>
       </div>
     </Container>

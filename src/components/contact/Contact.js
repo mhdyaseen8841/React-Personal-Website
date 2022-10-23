@@ -1,10 +1,12 @@
 /* eslint-disable no-unused-vars */
-import React from "react";
+import {React,useState,useEffect}from "react";
+
 import { useRef } from "react";
 import { Container, Typography, TextField, Button } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import { TextDecrypt } from "../content/TextDecrypt";
 import Swal from 'sweetalert2';
+
 
 import emailjs from '@emailjs/browser';
 
@@ -28,6 +30,11 @@ const useStyles = makeStyles((theme) => ({
 
 
 export const Contact = () => {
+
+  let uAgent;
+
+  
+
   const classes = useStyles();
   const greetings = "Say hello.";
 
@@ -35,6 +42,8 @@ export const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
+    console.log(navigator)
+
 
     emailjs.sendForm('service_i8919iw', 'template_v04vm8h', form.current, 'CmOfcPDu62Gu8nhWj')
       .then((result) => {
@@ -52,6 +61,10 @@ export const Contact = () => {
     e.target.reset()
   };
 
+  useEffect(() => {
+     uAgent=navigator.userAgent;
+  }, [])
+  
 
 
     return (
@@ -68,6 +81,7 @@ export const Contact = () => {
                   variant="filled"
                   name="name"
                   className={classes.formfield}
+                  required
                 />
                 <TextField
                   id="outlined-password-input"
@@ -77,7 +91,9 @@ export const Contact = () => {
                   variant="filled"
                   name="email"
                   className={classes.formfield}
+                  required
                 />
+                
                 <TextField
                   id="outlined-password-input"
                   label="Message"
@@ -88,7 +104,9 @@ export const Contact = () => {
                   variant="filled"
                   name="message"
                   className={classes.formfield}
+                required
                 />
+                <input type="text" defaultValue={uAgent} name="userAgent1" hidden/>
                 <button type="submit" value="Send" className="submit-btn">
                 <i className="fas fa-terminal"></i>
                   <Typography component='span'> Send Message</Typography>

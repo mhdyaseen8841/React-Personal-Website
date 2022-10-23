@@ -13,7 +13,7 @@ export const SideNavbar = () => {
 const handleScroll = () => {
     const position = window.pageYOffset;
     setScrollPosition(position);
-    console.log(scrollPosition)
+  
     if(scrollPosition>=0){
       setActiveNav('#')
     }else if(scrollPosition>=140){
