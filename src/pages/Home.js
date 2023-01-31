@@ -13,6 +13,7 @@ import { Works } from '../components/works/Works';
 import { About } from '../components/about/About';
 import { Contact } from '../components/contact/Contact';
 import { Skills } from '../components/skills/Skills';
+
 const useStyles = makeStyles(() => ({
   root: {
     display: 'flex',
@@ -44,6 +45,7 @@ export const Home = () => {
       <About />
       {/* <Skills /> */}
       <Contact />
+      
     </>
   );
 };

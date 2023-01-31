@@ -7,7 +7,7 @@ import { FirstName, LastName } from "../../utils/getName";
 
 import './About.css';
 
-import profile from '../../assets/Profile5.png';
+import profile from '../../assets/Profile9.png';
 
 const useStyles = makeStyles((theme) => ({
   main: {
@@ -36,6 +36,7 @@ export const About = () => {
               backgroundSize: 'contain',
               backgroundPosition: 'center',
               backgroundRepeat: 'no-repeat',
+             
             }}
           >
           </div>

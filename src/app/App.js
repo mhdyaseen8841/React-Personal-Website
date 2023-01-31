@@ -7,6 +7,7 @@ import { CssBaseline } from "@material-ui/core";
 import { logCredits } from "../utils/logCredits";
 
 import { Home } from "../pages/Home";
+import {ImageGallery} from '../components/gallery/ImageGallery'
 
 // const Resume = lazy(() => import("../pages/Resume"));
 const PageNotFound = lazy(() => import("../pages/PageNotFound"));
@@ -21,7 +22,8 @@ export const App = () => {
           <HelmetMeta />
           <Switch>
               <Route path="/" exact component={Home} />
-              {/* <Route path="/resume" component={Resume} /> */}
+           
+              {/* <Route path="/gallery" exact component={ImageGallery} /> */}
               <Route path="*" component={PageNotFound} />
           </Switch>
         </Router>
