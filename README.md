@@ -1,11 +1,8 @@
 # Personal Portfolio Website built with React v16
 
-[![Screenshot](/public/social-image.png?raw=true)](https://taniyow.vercel.app)
+[![Screenshot](/public/social-image.png?raw=true)](https://mohammedyaseen.netlify.app/)
 
-[![Website mctan.dev](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://mctan.dev)
-[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/taniyow/taniyow-portfolio-react/blob/master/LICENSE)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/taniyow/taniyow-portfolio-react/graphs/commit-activity)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
+[![Website mctan.dev](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://mohammedyaseen.netlify.app/)
 
 A clean and customizable ReactJS portfolio template for fellow developers. Credits to Jo Lienhoop!. View demo at [https://http://vercel.com//](https://taniyow.vercel.app)
 
