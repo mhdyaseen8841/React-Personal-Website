@@ -4,7 +4,6 @@
 
 [![Website mctan.dev](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://mohammedyaseen.netlify.app/)
 
-A clean and customizable ReactJS portfolio template for fellow developers. Credits to Jo Lienhoop!. View demo at [https://http://vercel.com//](https://taniyow.vercel.app)
 
 -   built using [React](https://reactjs.org)
 -   bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
